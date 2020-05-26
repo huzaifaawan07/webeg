@@ -1,0 +1,81 @@
+#n{
+    background-color:  rgb(119, 71, 71) !important;
+}
+.alert{
+    background-color:  rgb(119, 71, 71) !important;
+    color: blanchedalmond;
+    text-align: center;
+    font-style: italic;
+    font-family:  cursive;
+    font-size: 0.7cm;
+}
+.np{
+    color: rgb(0,0,0);
+
+}
+
+
+
+.newarrival{
+    color: rgb(0,0,0) !important;
+}
+.newarrivalh{
+    text-align: center !important;
+}
+
+.homena{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+   
+    
+    margin-left: 1cm;
+    margin-right: 1cm;
+    
+   
+}
+.homef{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left: 1cm;
+    margin-right: 1cm;
+    margin-bottom: 1cm;
+    
+}  
+.homec{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left: 1cm;
+    margin-right: 1cm;
+    margin-bottom: 1cm;
+}
+.homefooter{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(119, 71, 71);  
+    justify-content: center;
+    
+    
+}
+.pf{
+    font-size: 0.7cm;
+    color: rgb(0, 0, 0);
+}
+.contact{
+    font-weight:bold ;
+    color: black;
+}
+@media only screen and (max-width:600px) {
+    .slides{
+        width: auto;
+        
+    }
+}
+@media only screen and (max-width:300px) {
+    .slides{
+        width: 70%;
+    
+    }
+}
